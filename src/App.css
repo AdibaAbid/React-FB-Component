@@ -1,0 +1,83 @@
+body{
+  background-color: gray;
+}
+
+.App {
+  text-align: center;
+  width: 52%;
+  margin-left: 30%;
+ 
+}
+section{
+  background-color:#fff;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  margin-top: 4%;
+  width: 73%;
+}
+.fb-card{
+  width: 75%;
+  display: flex;
+  margin-top: 1%;
+  margin-left: 26px;
+}
+.title{
+  margin: 5px;
+  text-align: left;
+
+}
+.title p{
+  color: rgb(68, 67, 67);
+  font-size: 12px;
+}
+.desp{
+  font-size: 16px;
+  color: #222;
+  float: left;
+  padding: 12px 35px;
+}
+
+.avtar{
+  height: 70px;
+  border-radius: 100%;
+  border: 1px solid green;
+  /* margin-left: -5px; */
+}
+h1{
+  color: #0444b6;
+  font-size: 20px;
+  margin: 5px;
+  width: 100%;
+}
+.emoji{
+  position: absolute;
+  top: 86%;
+}
+button{
+  background-color: #fff;
+  color:#222;
+  padding: 8px 20px;
+  font-size: 20px;
+  border: none;
+}
+button:focus{
+  outline: none;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
